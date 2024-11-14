@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Latihan Form</title>
+    </head>
+    <body>
+            <h1>Latihan Form</h1>
+            <p><b>Ini adalah website latihan pertama</b></p><br>
+            <form action="https://www.google.com/?hl=id" method="post">
+                <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                    <label style="width: 100px;">Nama</label>
+                    <span>:</span>
+                    <input style="width: 416px" id="Nama" type="text"/>
+                </div>
+                <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                    <label style="width: 100px;">Tanggal Lahir</label>
+                    <span>:</span>
+                    <input style="width: 416px" id="Tanggal lahir" type="number"/>
+                </div>
+                <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                    <label style="width: 100px;">Jenis Kelamin</label>
+                    <span>:</span>
+                    <input type="radio" id="laki-laki" name="gender" value="Laki-laki"/>
+                    <label for="laki-laki">Laki-laki</label>
+                    <input type="radio" id="perempuan" name="gender" value="Perempuan"/>
+                    <label for="perempuan">Perempuan</label>
+                </div>
+
+                <div style="display: flex; align-items: top;">
+                    <label style="width: 100px;">Pesan:</label>
+                    <span>:</span>
+                    <textarea rows="8" cols="50">Ketik di sini</textarea>
+                </div>
+                <br>
+
+                <div style="display: flexbox; align-items: center;">
+                    <input style="width: 529px" type="submit" value="Submit"/>
+                </div>
+            </form>
+    </body>
+</html>
